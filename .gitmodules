@@ -1,0 +1,3 @@
+[submodule "TUBAF_typst_template"]
+	path = TUBAF_typst_template
+	url = https://github.com/DM-3/TUBAF_typst_template.git
