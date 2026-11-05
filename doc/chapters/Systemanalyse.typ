@@ -59,3 +59,28 @@ Projektziele:
   - in der relativen Pose zwischen den Robotern (gemeinsames Halten der Kiste)
   - in der absoluten Pose (aufrechtes Halten der Kiste)
 + GUI zur Vorgabe von Zielposen
+
+#pagebreak()
+*Schritte - Umsetzung mit ROS*
++ Roboter grob kennenlernen: Bedienung Teaching Panel
++ remote Kommunikation mit einem Roboter
++ Ansteuerung eines Roboters über ROS2
++ Darstellung eines Roboters in RViz
++ Bewegungsplanung für einen Roboter
+  - planning scene für UR Roboter & Umgebung
+  - MoveIt Task Constructor, OMPL
++ Ansteuerung beider Roboter über ROS2
++ Darstellung beider Roboter in RViz
++ Bewegungsplanung für beide Roboter
+  - Kombination beider Roboter zu einer planning scene
+  - OMPL Planung in 12 dimensionalem Planungsraum
+  - (Module für MTC)
++ Constraints
+  - relativ in Pose zwischen Endeffektoren zum Greifen der Kiste
+  - absolut in Pose zum aufrechten Halten der Kiste
++ Einbau des Greifers
+  - Modellierung mit CAD + 3D Druck
++ Erweiterung der Szene
+  - Einfügen der Kiste
+  - Einfügen des Greifers
++ GUI zur Eingabe von Zielposen
