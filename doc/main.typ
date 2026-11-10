@@ -2,13 +2,13 @@
 
 #show: tubaf.report.with(
   type: "Belegarbeit",
-  title: "Entwicklung Automatischer und Autonomer Systeme",
-  subtitle: "Planung und Steuerung von Multirobotersystemen",
+  subtitle: "Entwicklung Automatischer und Autonomer Systeme",
+  title: "Planung und Ausführung kollaborativer Bewegungen von Multirobotersystemen in dynamischen Umgebungen",
   authors: ((
     name: "Ben Weckend",
     studentID: "67551",
   ),(
-    name: [\ Martin Werner],
+    name: "Martin Werner",
     studentID: "67641"
   )),
   supervisors: ((
@@ -20,7 +20,10 @@
     name: "Robert Weidner",
   ),),
   lang: "de",
-  //references: "references.bib"
+  decl_authenticity: false,
+  images_outlined: false,
+  tables_outlined: false,
+  references: "../doc/references.bib"
 )
 
 #include "chapters/Systemanalyse.typ"

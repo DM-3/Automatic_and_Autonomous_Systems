@@ -84,3 +84,6 @@ Projektziele:
   - Einfügen der Kiste
   - Einfügen des Greifers
 + GUI zur Eingabe von Zielposen
+
+#linebreak()
+=> potentiell bessere Umsetzung von @MartinezPeral2025
