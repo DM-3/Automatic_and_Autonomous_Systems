@@ -21,9 +21,11 @@
   ),),
   lang: "de",
   decl_authenticity: false,
-  images_outlined: false,
+  images_outlined: true,
   tables_outlined: false,
   references: "../doc/references.bib"
 )
 
 #include "chapters/Systemanalyse.typ"
+#include "chapters/Anforderungen.typ"
+#include "chapters/Systemkonzept.typ"
